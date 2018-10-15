@@ -55,7 +55,7 @@ module.exports = function(api, opts, env) {
           // Do not preserve commonjs semantics
           useESModules: true,
           // Resolve the Babel runtime relative to the config.
-          absoluteRuntime: path.dirname(require.resolve('babel-runtime/package')),
+          absoluteRuntime: path.dirname(require.resolve('@babel/runtime/package')),
         },
       ],
     ],
